@@ -9,10 +9,10 @@ FILESPATH =. "${FILE_DIRNAME}/linux-beagleboard-4.9:${FILE_DIRNAME}/linux-beagle
 
 S = "${WORKDIR}/git"
 
-PV = "4.9.0-rc7"
+PV = "4.9.0"
 
 SRC_URI = "git://github.com/beagleboard/linux.git;branch=4.9;nobranch=1"
-SRCREV_pn-${PN} = "13437cd99c714bcb12c0f0bfd6c6713675c02386"
+SRCREV_pn-${PN} = "3e61e79cf122ea08de6c968c692375b5255fd0d4"
 
 SRC_URI += " \
 	file://defconfig \
